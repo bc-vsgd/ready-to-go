@@ -7,7 +7,7 @@ Purpose: when the 3 switches are in position 'On', we are 'Ready to go' ! - Use 
 
 Responsive app (breakpoints at 576px, 768px, 992px and 1200px).
 
-Watch the result on [Netlify].
+Watch the result on [Netlify](https://sage-cactus-e569d3.netlify.app/).
 
 ## React + Vite
 
