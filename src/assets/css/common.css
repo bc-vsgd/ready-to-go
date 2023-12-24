@@ -1,0 +1,93 @@
+/* STYLE RULES VALID FOR ALL SCREEN WIDTHS */
+
+/* COMMON */
+/* COMMON */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  margin: 0 auto;
+}
+.white {
+  background-color: white;
+  color: #5c48d3;
+}
+.blue {
+  background-color: #5c48d3;
+  color: white;
+}
+.green {
+  background-color: #46ac4a;
+  color: white;
+}
+.red {
+  background-color: #d34848;
+  color: white;
+}
+
+/* HEADER */
+/* HEADER */
+
+header {
+  border-bottom: 1px solid #e5e5e5;
+}
+header div {
+  display: flex;
+  align-items: center;
+}
+header i {
+  color: #5c48d3;
+}
+
+/* MAIN */
+/* MAIN */
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+main > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.switch div {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.switch button {
+  border: 1px solid #908f8f;
+  border-radius: 3px;
+}
+.message-div {
+  text-align: center;
+  width: 300px;
+}
+.message-div > div {
+  border: 1px dotted #908f8f;
+  border-radius: 3px;
+}
+
+/* FOOTER */
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  display: flex;
+  align-items: center;
+}
+footer a {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+footer img {
+  border-radius: 50%;
+}

@@ -1,0 +1,39 @@
+/* STYLE RULES FOR MORE THAN 992 PX WIDTH SCREENS */
+
+@media (min-width: 992px) {
+  /* COMMON */
+  /* COMMON */
+
+  .container {
+    width: 800px;
+  }
+
+  /* HEADER */
+  /* HEADER */
+
+  header {
+    margin-bottom: 200px;
+    font-size: 48px;
+  }
+  header div {
+    margin: 60px;
+    gap: 60px;
+  }
+  header i {
+    font-size: 80px;
+  }
+
+  /* MAIN */
+  /* MAIN */
+
+  .switch button {
+    font-size: 36px;
+  }
+
+  /* FOOTER */
+  /* FOOTER */
+
+  footer {
+    margin-top: 220px;
+  }
+}

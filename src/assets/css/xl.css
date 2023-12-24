@@ -1,0 +1,35 @@
+/* STYLE RULES FOR MORE THAN 1200 PX WIDTH SCREENS */
+
+@media (min-width: 1200px) {
+  /* COMMON */
+  /* COMMON */
+
+  .container {
+    width: 1024px;
+  }
+
+  /* HEADER */
+  /* HEADER */
+
+  header {
+    margin-bottom: 220px;
+  }
+
+  /* MAIN */
+  /* MAIN */
+
+  .message-div div {
+    width: 250px;
+    height: 150px;
+    font-size: 48px;
+    line-height: 150px;
+    margin: 50px auto;
+  }
+
+  /* FOOTER */
+  /* FOOTER */
+
+  footer {
+    margin-top: 250px;
+  }
+}

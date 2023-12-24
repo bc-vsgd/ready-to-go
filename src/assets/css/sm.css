@@ -1,0 +1,33 @@
+/* STYLE RULES FOR MORE THAN 576 PX WIDTH SCREENS */
+
+@media (min-width: 576px) {
+  /* HEADER */
+  /* HEADER */
+
+  header {
+    margin-bottom: 120px;
+    font-size: 32px;
+  }
+  header div {
+    margin: 40px;
+    gap: 40px;
+  }
+  header i {
+    font-size: 48px;
+  }
+
+  /* FOOTER */
+  /* FOOTER */
+
+  footer {
+    width: 550px;
+    font-size: 14px;
+    margin: 120px auto 20px auto;
+  }
+  footer p {
+    gap: 4px;
+  }
+  footer a {
+    gap: 4px;
+  }
+}

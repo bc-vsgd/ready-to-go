@@ -1,0 +1,61 @@
+/* STYLE RULES FOR MORE THAN 768 PX WIDTH SCREENS */
+
+@media (min-width: 768px) {
+  /* COMMON */
+  /* COMMON */
+
+  .container {
+    width: 600px;
+  }
+
+  /* HEADER */
+  /* HEADER */
+
+  header {
+    margin-bottom: 150px;
+    font-size: 40px;
+  }
+  header div {
+    margin: 50px;
+    gap: 50px;
+  }
+  header i {
+    font-size: 60px;
+  }
+
+  /* MAIN */
+  /* MAIN */
+
+  main {
+    flex-direction: row;
+  }
+  .switch button {
+    width: 120px;
+    height: 70px;
+    font-size: 30px;
+  }
+  .message-div > div {
+    font-size: 36px;
+    margin: 70px 0 60px 100px;
+  }
+
+  /* FOOTER */
+  /* FOOTER */
+
+  footer {
+    margin: 200px auto 30px auto;
+    font-size: 15px;
+  }
+  footer a {
+    gap: 5px;
+  }
+  footer p {
+    gap: 5px;
+  }
+  footer img {
+    height: 30px;
+  }
+  footer i {
+    font-size: 32px;
+  }
+}
